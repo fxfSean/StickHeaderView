@@ -1,0 +1,2 @@
+# StickHeaderView
+支持XRecyclerView设置Header的吸顶效果
