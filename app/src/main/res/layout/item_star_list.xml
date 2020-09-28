@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#F4161823"
+    android:alpha="0.9"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/iv_follow_head"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:scaleType="centerCrop"
+        tools:src="#0ff"
+        />
+
+    <TextView
+        android:id="@+id/tv_follow_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="达文西"
+        android:textColor="#fff"
+        android:layout_marginTop="16.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_follow_head"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_follow_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="2020-01-22"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/iv_follow_head"
+        android:layout_below="@+id/tv_follow_name"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_followed"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        tools:text="已关注"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:textSize="13sp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/csl_fans_task"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/shape_fans_group_bg"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="this is Header"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:gravity="center"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
