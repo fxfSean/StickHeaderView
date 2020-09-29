@@ -35,8 +35,7 @@ dependencies {
 
 //添加 compile 'com.fxfsean:stickHeader:1.0.0'
 publish {
-    repoName = 'fxfMaven'
-    userOrg = 'liqiang365'//bintray.com用户名
+    userOrg = 'fxf'//bintray.com用户名
     groupId = 'com.fxfsean'//jcenter上的路径
     artifactId = 'stickHeader'//项目名称
     publishVersion = '1.0.0'//版本号
